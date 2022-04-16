@@ -1,0 +1,40 @@
+.snakeboard {
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(14, 14, 13);
+    text-transform: uppercase;    
+    background-color: rgb(239, 239, 239);
+    
+}
+
+canvas{
+    border: solid 3px rgb(17, 87, 17);
+    border-bottom: solid 1px rgb(17, 87, 17);
+    border-radius: 5%;
+}
+
+.row {  
+    border: solid 3px rgb(17, 87, 17);
+    border-top: solid 1px rgb(17, 87, 17);
+    height: 5vh;
+    width: 512px;
+    background-color: rgb(120, 176, 103);
+    display: flex;
+    align-items: center;
+    border-radius: 25%;
+
+}
+
+h3 {
+    margin-left: 10px;;
+
+}
+
+#score {
+    margin-left: 15px;;
+    text-align: center  ;
+}
